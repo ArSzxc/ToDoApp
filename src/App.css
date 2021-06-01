@@ -1,5 +1,11 @@
+body{
+  background-image: url(https://bipbap.ru/wp-content/uploads/2017/12/0f92147ad2284aae418b40faf24dc68902960019_hq-640x456.jpg);
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App .item-todo {
@@ -17,14 +23,17 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 600px;
 }
 
 .App .item-todo .item-text {
   display: inline-block;
   cursor: pointer;
+ 
 }
 
 .App input {
+  width: 500px;
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
